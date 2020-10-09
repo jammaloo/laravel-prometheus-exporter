@@ -1,5 +1,5 @@
 {
-    "name": "arquivei/laravel-prometheus-exporter",
+    "name": "jammaloo/laravel-prometheus-exporter",
     "description": "A Prometheus exporter for Laravel and Lumen",
     "license": "MIT",
     "authors": [
@@ -11,12 +11,12 @@
         "php": ">=7.3.0",
         "illuminate/support": "^5.3 || ^6.0 || ^7.0",
         "illuminate/routing": "^5.3 || ^6.0 || ^7.0",
-        "endclothing/prometheus_client_php": "^1.0.2 || 1.0.x-dev"
+        "promphp/prometheus_client_php": "^1.0.2 || 1.0.x-dev || ^2.1"
     },
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/endclothing/prometheus_client_php.git"
+            "url": "https://github.com/promphp/prometheus_client_php.git"
         }
     ],
     "autoload": {
