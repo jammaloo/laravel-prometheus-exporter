@@ -11,7 +11,7 @@
         "php": ">=7.3.0",
         "illuminate/support": "^5.3 || ^6.0 || ^7.0",
         "illuminate/routing": "^5.3 || ^6.0 || ^7.0",
-        "promphp/prometheus_client_php": "^1.0.2 || 1.0.x-dev || ^2.1"
+        "promphp/prometheus_client_php": "^2.1"
     },
     "repositories": [
         {
